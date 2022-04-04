@@ -1,93 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timovy projekt 11</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Domov</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="members.html">Členovia</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Domov</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="members.html">Členovia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">O projekte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="memorandum.html">Zápisnica</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-6">
+          <div class="member">
+            <h4>Alan Dolán</h4>
+            <ul>
+              <li>3 ročné skúsenosti ako web developer</li>
+              <li>1 rok junior web developer v Accenture</li>
+              <li>Tech stack: HTML5, Css(Sass), JS, Angular, Node</li>
+            </ul>
+          </div>
+          <div class="member">
+            <h4>Atilla Mucska</h4>
+            <ul>
+              <li>4 ročné skúsenosti s vývojom webových aplikácií</li>
+              <li>
+                2 roky medior web developer v Triad Advertising, 2 roky web
+                freelancing
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="project.html">O projekte</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="memorandum.html">Zápisnica</a>
+              <li>
+                Tech stack: PHP(Laravel), HTML5, CSS(Sass), JS(Vue.js, React
+                Native, jQuery), MySQL
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-
-      <div class="container">
-          <div class="row mt-4">
-              <div class="member">
-                  <h4>Alan Dolán</h4>
-                  <ul>
-                      <li>3 ročné skúsenosti ako web developer</li>
-                      <li>1 rok junior web developer v Accenture</li>
-                      <li>Tech stack: HTML5, Css(Sass), JS, Angular, Node</li>
-                  </ul>
-              </div>
-              <div class="member">
-                <h4>Atilla Mucska</h4>
-                <ul>
-                    <li>4 ročné skúsenosti s vývojom webových aplikácií</li>
-                    <li>2 roky medior web developer v Triad Advertising, 2 roky web freelancing</li>
-                    <li>Tech stack: PHP(Laravel), HTML5, CSS(Sass), JS(Vue.js, React Native, jQuery), MySQL</li>
-                </ul>
-              </div>
-              <div class="member">
-                <h4>Samuel Kobera</h4>
-                <ul>
-                    <li>Fullstack development informačného systému pre firmu v stavebnej oblasti – 3 roky</li>
-                    <li>Tech stack: Laravel + Vue.js, Flutter</li>
-                </ul>
-              </div>
-              <div class="member">
-                <h4>Lukáš Daniš</h4>
-                <ul>
-                    <li>Práca na webových stránkach</li>
-                    <li>Bakalárska práca – mobilná aplikácia s využitím Flutter a Firebase.</li>
-                    <li>Práca ako Cloud Engineer v Accenture</li>
-                </ul>
-              </div>
-              <div class="member">
-                <h4>Tomáš Drus</h4>
-                <ul>
-                    <li>4 ročné skúsenosti s vývojom webových aplikácií pre firmy na mieru od prezenčných po eshopy Frontend + Backend.</li>
-                    <li>Tech stack: PHP(Laravel), HTML5, CSS3, JS, React, React Native, Photoshop</li>
-                </ul>
-              </div>
-              <div class="member">
-                <h4>Imrich Budinský</h4>
-                <ul>
-                    <li>Precízne naštudované školské predmety</li>
-                    <li>Tech stack: HTML, CSS, JS, PHP</li>
-                </ul>
-              </div>
-              <div class="member">
-                <h4>Filip Samuhel</h4>
-                <ul>
-                    <li>Precízne naštudované školské predmety</li>
-                    <li>Tech stack: HTML, CSS, JS, PHP</li>
-                </ul>
-              </div>
+          <div class="member">
+            <h4>Samuel Kobera</h4>
+            <ul>
+              <li>
+                Fullstack development informačného systému pre firmu v stavebnej
+                oblasti – 3 roky
+              </li>
+              <li>Tech stack: Laravel + Vue.js, Flutter</li>
+            </ul>
           </div>
+        </div>
+        <div class="col-6">
+          <div class="member">
+            <h4>Lukáš Daniš</h4>
+            <ul>
+              <li>Práca na webových stránkach</li>
+              <li>
+                Bakalárska práca – mobilná aplikácia s využitím Flutter a
+                Firebase.
+              </li>
+              <li>Práca ako Cloud Engineer v Accenture</li>
+            </ul>
+          </div>
+          <div class="member">
+            <h4>Tomáš Drus</h4>
+            <ul>
+              <li>
+                4 ročné skúsenosti s vývojom webových aplikácií pre firmy na
+                mieru od prezenčných po eshopy Frontend + Backend.
+              </li>
+              <li>
+                Tech stack: PHP(Laravel), HTML5, CSS3, JS, React, React Native,
+                Photoshop
+              </li>
+            </ul>
+          </div>
+          <div class="member">
+            <h4>Imrich Budinský</h4>
+            <ul>
+              <li>Precízne naštudované školské predmety</li>
+              <li>Tech stack: HTML, CSS, JS, PHP</li>
+            </ul>
+          </div>
+          <div class="member">
+            <h4>Filip Samuhel</h4>
+            <ul>
+              <li>Precízne naštudované školské predmety</li>
+              <li>Tech stack: HTML, CSS, JS, PHP</li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </div>
 
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
