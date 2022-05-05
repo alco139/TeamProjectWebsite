@@ -1,7 +1,13 @@
 .member {
-  text-align: center;
-  border: 2px dashed rgba(0, 0, 0, 0.69);
-  border-radius: 28px;
-  outline-offset: 24px;
-  margin: 30px;
+  text-align: center !important;
+  border: 2px dashed rgba(0, 0, 0, 0.69) !important;
+  border-radius: 28px !important;
+  outline-offset: 24px !important;
+  margin: 30px !important;
 }
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+
